@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>omnnow - take a moment</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700&display=swap" rel="stylesheet">
+
+  <link rel="shortcut icon" href="/img/favicon.png">
+
+  <script src="https://kit.fontawesome.com/a7ae6e4bcb.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="content">
+    <div class="container">
+      <header>
+        <h1>omnnow</h1>
+        <h2>take a moment</h2>
+        
+      </header>
+      <nav>
+        <a class="current" href="#">moments</a>
+        <a href="#">blog</a>
+        <a href="#">about</a>
+        <!-- <a href="#">box breathing</a> -->
+      </nav>
+      <section class="intro">
+        <p><i>Welcome to omnnow.</i> We encourage you to start by choosing one of the moments below and sitting in stillness for as long as you can. This is your practice, your moment. Feel free to listen as you work or sit in stillness. Enjoy!
+      </section>
+      <section class="player">
+        <div id="player">
+          <input type="range" min="0" max="100" value="15" class="slider" id="volume">
+        </div>
+      </section>
+      <section class="moments">
+        <img src="img/moment-1.jpg" alt="moment 1">
+        <img src="img/moment-2.jpg" alt="moment 2">
+        <img src="img/moment-3.jpg" alt="moment 3">
+        <img src="img/moment-4.jpg" alt="moment 4">
+      </section>
+      
+    </div> <!-- .container -->
+  </div> <!-- .content-->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
